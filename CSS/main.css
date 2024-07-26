@@ -1,0 +1,75 @@
+@font-face{
+font-family:vanilla;
+src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background:#333333;
+}
+.content{
+    height:880px;
+    width:1200px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:black;
+    color:#fff;
+    font-size:10px;
+font-family:vanilla;
+}
+.profile{
+    height: 450px; 
+    width:250px;
+    text-align:center;
+    border-radius:5px;
+    background:#1F1F1F;
+
+}
+.profile img{
+    width:100px;
+    margin-top:30px;
+    border-radius:50px;
+}
+ul{
+    list-style:none;
+
+}
+li{
+    height:25px;
+    width:150px;
+    background:#333333;
+    border-radius:5px;
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+li:hover{
+    background:greenyellow;
+    color:black;
+cursor: pointer;
+}
+.attribution{
+    height:fit-content;
+    width:fit-content;
+    margin:auto;
+    margin-top:10px;
+}
+@media (max-width:700px) {
+   .content{
+     height:800px;
+    width:500px;
+    margin:auto;}
+    .profile{
+    height: 600px;
+    width:250px;
+    text-align:center;
+    padding:60px;
+
+    }
+}
